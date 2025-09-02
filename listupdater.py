@@ -18,13 +18,13 @@ if not INPUT_PATH.endswith(".json"):
         exit("Cancelled.")
 
 OUTPUT_FORMAT = {
-    "ID": "",
-    "Name": "name",
-    "IngameID": "_id",
-    "Creator": "creators",
-    "VerifierName": "verifier",
-    "VerifierID": "",
-    "VideoURL": "video"
+    "id": "",
+    "name": "name",
+    "ingameId": "_id",
+    "creator": "creators",
+    "verifierName": "verifier",
+    "verifierId": "",
+    "videoUrl": "video"
 }
 
 input_list = json.load(
