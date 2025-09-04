@@ -37,7 +37,7 @@ for i, input_level in enumerate(input_list):
     level = {}
 
     for k, v in OUTPUT_FORMAT.items():
-        if k == "ID":
+        if k == "id":
             level[k] = i
             continue
         
